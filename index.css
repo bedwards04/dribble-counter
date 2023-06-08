@@ -1,5 +1,5 @@
 body {
-    background-image: url("basketballcourt.jpg");
+    background-image: url("basketball-img.jpg");
     background-size: cover;
     font-family: 'Graduate', cursive;
     text-align: center;
@@ -10,6 +10,10 @@ body {
     min-width: 235px;
     max-width: 200px;
     margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 h1 {
